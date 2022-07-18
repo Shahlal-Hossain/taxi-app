@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+}
+.container{
+    background-image: url(./images/yellow-taxi-bg.jpg);    
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+.container div{
+    padding: 8vw;
+}
+.btn{
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #101010;
+    color: white;
+    cursor: pointer;
+}
+.cart{
+    display: flex;
+    width: 100vw;
+    height: 570px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.cart div{
+    background-color: gold;
+    width: 450px;
+    height: 530px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.cart img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.cart p{
+    margin: 20px 0;
+}
+.cart-2{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cart-1 h1{
+    width: 200px;
+    margin-left: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+.cart-1 h5{
+    background-color: goldenrod;
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+.cartImg p{
+    width: 390px;
+    margin-top: 20px;
+    display: flex;
+    font-family: "Times New Roman", Times, serif;
+}
+.cartImg img{
+    width: 390px;
+    height: 250px;
+}
+.cartImg-2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.cartImg-2-1 img{
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+}
+.cartImg-2-1 h4{
+    margin: 20px 0;
+}
+.cartImg-2-2 img{
+    width: 300px;
+    height: 220px;
+    margin-left: 100px;
+}
+.cartImg-2-2 p{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: "Times New Roman", Times, serif;
+}
+.Container{
+    width: 100vw;
+    height: 100vh;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container div{
+    width: 50vw;
+    
+}
+.ContainerText img{
+    width: 450px;
+    height: 400px;
+    margin-left: 20%;
+}
+.ContainerText h1{
+    margin: 20px 0 20px 20%;
+    font-family: "Times New Roman", Times, serif;
+}
+.ContainerText p{
+    width: 400px;
+    margin-left: 20%;
+    font-family:'Courier New', Courier, monospace;
+}
+.ContainerImages img{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    display: flex;
+}
+.ContainerImages h3{
+    width: 400px;
+    height: 340px;
+    background-color: aliceblue;
+    margin-top: 70px;
+    margin-left: 110px;
+}
+.mainc{
+    width: 100vw;
+    height: 110vh;
+}
+.Cart-3{
+    width: 500px;
+    height: 420px;
+    background-color: gold;
+    margin-top: 70px;
+    margin-left: 10%;
+    position: absolute;
+}
+.imagess{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background-color: #e4e2e2;
+    margin-left: 25%;
+    margin-top: 200px;
+}
+.text{
+    position: absolute;
+    width: 400px;
+    height: 370px;
+    background-color: #e4e2e2;
+    margin-left: 13%;
+    padding: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+.text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.textBtn{
+    border: none;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: gold;
+    color: #000000;
+    cursor: pointer;
+}
+.about-us{
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    background-color: #ffbf00;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 100px;
+    margin-top: 35%;
+}
+.about-us img{
+    width: 300px;
+    height: 250px;
+}
+.about-usText{
+    padding-left: 20px;
+}
+.about-usText h1{
+    margin-bottom: 20px;
+}
+.administration{
+    background-image: url(./images/nyc-brooklyn-bridge-taxi------bg.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Dispatch{
+    width: 470px;
+    height: 70vh;
+    background-color: #ffff;
+    margin-left: 50px;
+    padding: 30px;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.Dispatch img{
+    width: 300px;
+}
+.Dispatch div{
+    padding: 15px;
+}
+.futor{
+    width: 100vw;
+    height: 80vh;
+    background-color: #ffbf00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    font-family: "Times New Roman", Times, serif;
+}
+.getInTouch h1{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.getInTouch h4{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.getInTouch p{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #ffbf00;
+    padding: 50px 250px;
+}
+
+.Lacation h2{
+    margin: 20px 0;
+}
+.Massages{
+    width: 500px;
+}
+.bg{
+    background-color: #000000;
+    width: 100vw;
+    height: 150px;
+}
+
+
+
+
+@media(max-width: 600px){
+    .container{
+        background-image: url(./images/yellow-taxi-bg.jpg);    
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        color: #000;
+    }
+    /* .container div{
+        padding: 8vw;
+    } */
+    .btn{
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        background-color: #101010;
+        color: white;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(95, 20, 20);
+    }
+    /* //// () ////// */
+    .cart{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 220vh;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .cart div{
+        background-color: gold;
+        width: 450px;
+        height: 530px;
+        margin: 20px 0;
+        border-radius: 10px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .cart img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .cart p{
+        margin: 20px 0;
+    }
+    /* //// () ////// */
+    .cart-2{
+        width: 100vw;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart-1{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .cart-1 h1{
+        width: 200px;
+        margin-left: 50px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .cart-1 h5{
+        background-color: goldenrod;
+        width: 200px;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .cartImg p{
+        width: 390px;
+        margin-top: 20px;
+        display: flex;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .cartImg img{
+        width: 390px;
+        height: 250px;
+    }
+    .cartImg-2{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .cartImg-2-1 img{
+        width: 250px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .cartImg-2-1 h4{
+        margin: 20px 0;
+    }
+    .cartImg-2-2 img{
+        width: 300px;
+        height: 220px;
+        /* margin-left: 100px; */
+    }
+    .cartImg-2-2 p{
+        width: 300px;
+        margin-top: 20px;
+        /* margin-left: 100px; */
+        font-family: "Times New Roman", Times, serif;
+    }
+    /* ///// () ////// */
+    .Container{
+        width: 100vw;
+        height: 190vh;
+        background-color: gold;
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .Container div{
+        width: 100vw;
+        
+    }
+    .ContainerText img{
+        width: 450px;
+        height: 400px;
+        /* margin-left: 20%; */
+    }
+    .ContainerText h1{
+        /* margin: 20px 0 20px 20%; */
+        font-family: "Times New Roman", Times, serif;
+    }
+    .ContainerText p{
+        width: 400px;
+        /* margin-left: 20%; */
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    .ContainerImages img{
+        width: 450px;
+        height: 350px;
+        /* position: relative; */
+        display: flex;
+    }
+    .ContainerImages h3{
+        width: 400px;
+        height: 340px;
+        background-color: aliceblue;
+    }
+/*  */
+    .mainc{
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Cart-3{
+        width: 500px;
+        height: 420px;
+        background-color: gold;
+        /* position: relative; */
+    }
+    .imagess{
+        width: 420px;
+        height: 400px;
+        background-color: #e4e2e2;
+        position: relative;
+    }
+    .text{
+        width: 500px;
+        height: 370px;
+        background-color: #e4e2e2;
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+    }
+    .text h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .textBtn{
+        border: none;
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 50px;
+        background-color: gold;
+        color: #000000;
+        cursor: pointer;
+    }
+    .about-us{
+        width: 100vw;
+        height: 250px;
+        background-color: #ffbf00;
+        font-family: "Times New Roman", Times, serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        left: 20px;
+        bottom: 50px;
+    }
+    .about-us img{
+        width: 300px;
+        height: 250px;
+    }
+    .administration{
+        background-image: url(./images/nyc-brooklyn-bridge-taxi------bg.jpg);
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Dispatch{
+        width: 470px;
+        height: 70vh;
+        background-color: #ffff;
+        margin-left: 50px;
+        padding: 30px;
+        text-align: center;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .Dispatch img{
+        width: 300px;
+    }
+    .Dispatch div{
+        padding: 15px;
+    }
+    /*  */
+    .futor{
+        width: 100vw;
+        height: 180vh;
+        background-color: #ffbf00;
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: start;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .getInTouch h1{
+        margin: 20px 0;
+        font-size: 40px;
+    }
+    .getInTouch h4{
+        margin: 20px 0;
+        font-size: 30px;
+    }
+    .getInTouch p{
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .icon{
+        text-align: center;
+    }
+    .Lacation h2{
+        margin: 20px 0;
+    }
+    .Massages{
+        width: 500px;
+    }
+    .bg{
+        background-color: #000000;
+        width: 100vw;
+        height: 100px;
+        text-align: center;
+        color: #e4e2e2;
+        padding: 30px;
+    }
+}
